@@ -1,1 +1,1 @@
-text dosyalarında sorular ve cevaplar bulunuyor. python dosyalarında sorular yok sadece çözüm için yazılan kodlar var.
+text dosyalarında sorular ve cevaplar bulunuyor. python dosyalarında sorular yok sadece çözüm için yazılan kodlar var. Pycharmda kod yazmak istediğimden kodlar pycharm da var. Ancak tekrar okumak için jyputer notebook u tercih ettiğimden dolayı oraya da soru cevap şeklinde aktardım.
