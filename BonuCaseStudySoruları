@@ -1,0 +1,50 @@
+Soru 1: persona.csv dosyasını okutunuz ve veri seti ile ilgili genel bilgileri gösteriniz.
+§ Soru 2: Kaç unique SOURCE vardır? Frekansları nedir?
+§ Soru 3: Kaç unique PRICE vardır?
+§ Soru 4: Hangi PRICE'dan kaçar tane satış gerçekleşmiş?
+§ Soru 5: Hangi ülkeden kaçar tane satış olmuş?
+§ Soru 6: Ülkelere göre satışlardan toplam ne kadar kazanılmış?
+§ Soru 7: SOURCE türlerine göre satış sayıları nedir?
+§ Soru 8: Ülkelere göre PRICE ortalamaları nedir?
+§ Soru 9: SOURCE'lara göre PRICE ortalamaları nedir?
+§ Soru 10: COUNTRY-SOURCE kırılımında PRICE ortalamaları nedir?
+
+GÖREV2 : COUNTRY, SOURCE, SEX, AGE kırılımında ortalama kazançlar nedir?
+
+GÖREV3 : Önceki sorudaki çıktıyı daha iyi görebilmek için sort_values metodunu azalan olacak şekilde PRICE’a göre uygulayınız.
+• Çıktıyı agg_df olarak kaydediniz.
+
+GÖREV4 :
+Üçüncü sorunun çıktısında yer alan PRICE dışındaki tüm değişkenler index isimleridir. Bu isimleri değişken isimlerine çeviriniz.
+
+Görev 5: Age değişkenini kategorik değişkene çeviriniz ve agg_df’e ekleyiniz
+
+Age sayısal değişkenini kategorik değişkene çeviriniz.
+• Aralıkları ikna edici şekilde oluşturunuz.
+• Örneğin: ‘0_18', ‘19_23', '24_30', '31_40', '41_70'
+
+
+Görev 6: Yeni seviye tabanlı müşterileri (persona) tanımlayınız.
+• Yeni seviye tabanlı müşterileri (persona) tanımlayınız ve veri setine değişken olarak ekleyiniz.
+• Yeni eklenecek değişkenin adı: customers_level_based
+• Önceki soruda elde edeceğiniz çıktıdaki gözlemleri bir araya getirerek customers_level_based değişkenini oluşturmanız gerekmektedir.
+
+
+Görev 7: Yeni müşterileri (personaları) segmentlere ayırınız.
+• Yeni müşterileri (Örnek: USA_ANDROID_MALE_0_18) PRICE’a göre 4 segmente ayırınız.
+• Segmentleri SEGMENT isimlendirmesi ile değişken olarak agg_df’e ekleyiniz.
+• Segmentleri betimleyiniz (Segmentlere göre group by yapıp price mean, max, sum’larını alınız).
+
+
+Görev 8: Yeni gelen müşterileri sınıflandırıp, ne kadar gelir getirebileceklerini tahmin ediniz.
+33 yaşında ANDROID kullanan bir Türk kadını hangi segmente aittir ve ortalama ne kadar gelir kazandırması beklenir?
+• 35 yaşında IOS kullanan bir Fransız kadını hangi segmente aittir ve ortalama ne kadar gelir kazandırması beklenir?
+
+
+
+
+
+
+
+
+
